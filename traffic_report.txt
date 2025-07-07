@@ -1,0 +1,34 @@
+# Task 5: Wireshark Network Traffic Capture – Cyber Security Internship
+
+## 🎯 Objective:
+Capture and analyze real-time network traffic using Wireshark, and identify at least three different protocols.
+
+## 🛠 Tool Used:
+- Wireshark v4.x with Npcap driver
+
+## 🔍 Steps Performed:
+
+1. Opened Wireshark and selected the active network interface (Wi-Fi).
+2. Started capturing live packets.
+3. Performed basic web activities:
+   - Browsed websites like example.com, google.com
+   - Ran `ping google.com` in Command Prompt
+4. Stopped capture after approximately 1 minute.
+5. Saved the capture file as `task5-capture.pcapng`.
+
+## 📡 Protocols Identified:
+
+1. **DNS** – Used for domain name resolution (e.g., when accessing google.com).
+2. **TCP** – Underlying transport protocol used by most connections.
+3. **HTTP** – Detected while accessing unencrypted web pages.
+4. **TLS** – Used for HTTPS-secured sites.
+5. **ICMP** – Observed during ping requests to external domains.
+
+## 📄 Output:
+- File: `task5-capture.pcapng`
+- Duration: ~1 minute
+- Device: Wi-Fi interface on Windows 10
+
+## ✅ Outcome:
+Successfully captured and analyzed various network packets in real-time. Learned how to use filters in Wireshark to identify and inspect protocols like DNS, TCP, HTTP, and TLS. Gained hands-on understanding of live network analysis.
+
